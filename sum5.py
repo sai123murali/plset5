@@ -1,2 +1,2 @@
-a,b=map(int,input().split())
-print(a+b)
+avi,bvi=map(int,input().split())
+print(avi+bvi)
