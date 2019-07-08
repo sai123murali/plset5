@@ -1,5 +1,7 @@
-a,b=input().split()
-if(len(a)>=len(b)):
+a,bi=map(str,input().split())
+if(len(a)>len(bi)):
     print(a)
+elif(len(a)==len(bi)):
+    print(bi)
 else:
-    print(b)
+    print(bi)
